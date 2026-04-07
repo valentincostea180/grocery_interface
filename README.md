@@ -1,5 +1,25 @@
-My final project is a Python command-line grocery shopping interface, modeled after global online grocery apps. At its core is the "Product" class, which organizes and manages each grocery item’s name and price. The "main()" function serves as the user’s guide, enabling them to list items, add new ones, or finalize their shopping.
+# 🛒 Grocery CLI App (Python)
 
-Key functions include "check_list" for generating a PDF of the shopping list, "add_list" for adding products, and "out_list" for creating a receipt with budget details. The program uses the "reportlab" library to produce these PDFs, making it easy to print or save lists and receipts.
+A command-line grocery shopping interface inspired by modern online grocery apps, built in Python.
 
-Additional features include error handling, budget management, and support for multiple users, allowing shared shopping lists. This project simplifies the grocery shopping process through a user-friendly interface and practical features.
+## 📌 Overview
+
+The application allows users to manage a shopping list, add products, and generate printable outputs such as shopping lists and receipts.
+
+### ⚙️ Features
+Add and manage grocery items
+Budget tracking and receipt generation
+PDF export for shopping lists and receipts (reportlab)
+Basic error handling
+Support for multiple users
+
+### ▶️ How to Run
+Run the Python script
+Follow the CLI prompts to manage your shopping list
+Generate PDFs for lists or receipts when needed
+
+### 🧠 Concepts Used
+Object-oriented programming (Product class)
+Command-line interface design
+File generation using reportlab
+Basic input validation and error handling
